@@ -1,20 +1,20 @@
 {
     "basic_info": {
       "name": "Deiosha Sparks",
-      "titles": [ "Software Developer" ],
+      "titles": [ "I am able to work well with others, highly motivated, responsible, quick learner, attentive to deal, adapt to new work environments quickly, good with multitasking, passionate about the work I do, and do it with high level of integrity and discretion." ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/Deiosha",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "Linkedin",
+          "url": "www.linkedin.com/in/deiosha-sparks-954882251",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "deioshaprofile.jpg"
     },
     "skills": {
       "icons": [
