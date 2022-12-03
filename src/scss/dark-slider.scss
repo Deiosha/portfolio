@@ -40,7 +40,7 @@ $content-background-color: #8C8C8C;
 
 %clear-selection {
   user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(194, 21, 139, 0);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -92,7 +92,7 @@ $content-background-color: #8C8C8C;
     }
   }
   &__startUp {
-    background-color: red;
+    background-color: rgb(38, 136, 87);
     height: 100%;
     width: 100%;
 

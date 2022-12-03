@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #D7CAAA;
+$organic-arrow-color: #d8aeae;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -12,11 +12,11 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color:#BFAA76;
+$loader-bar-color:#325066;
 $loader-bar-height: 6px;
-$control-bullet-color: #D7CAAA;
-$control-bullet-active-color: #D7CAAA;
-$content-background-color: #D7CAAA;
+$control-bullet-color: #161002;
+$control-bullet-active-color: #150c0c;
+$content-background-color: #130202;
 
 %fill-parent {
   display: block;
@@ -92,7 +92,7 @@ $content-background-color: #D7CAAA;
     }
   }
   &__startUp {
-    background-color: red;
+    background-color: rgb(227, 200, 200);
     height: 100%;
     width: 100%;
 
@@ -111,7 +111,7 @@ $content-background-color: #D7CAAA;
   }
   &__content {
     @extend %fill-parent;
-    background-color: var(--content-background-color);
+    background-color: #d8aeae;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -136,8 +136,8 @@ $content-background-color: #D7CAAA;
       z-index: 10;
       top: calc(50% - (0.5 * var(--control-button-height)));
       border: none;
-      background-color: var(--control-button-background);
-      color: #fff;
+      background-color: #d8aeae;
+      color: #d8aeae;
       cursor: pointer;
       .#{$root-element}__controls__arrow-left,
       .#{$root-element}__controls__arrow-right {
@@ -171,7 +171,7 @@ $content-background-color: #D7CAAA;
     display: block;
     width: 100%;
     height: var(--loader-bar-height);
-    background-color: var(--loader-bar-color);
+    background-color: #d8aeae;
     position: absolute;
     top: 0;
     left: 0;
@@ -322,13 +322,13 @@ $content-background-color: #D7CAAA;
     }
     &:before {
       transform-origin: 100% 100% 0;
-      // background-color: rgba(76, 177, 6, 0.75);
+      background-color: rgba(76, 177, 6, 0.75);
       top: -50%;
       transform: rotate(-45deg);
     }
     &:after {
       transform-origin: 100% 0% 0;
-      // background-color: rgba(255, 247, 43, 0.75);
+      background-color: rgba(255, 247, 43, 0.75);
       top: 50%;
       transform: rotate(45deg);
     }

@@ -3,7 +3,7 @@ body[data-theme="dark"] {
    @import '/src/scss/dark-slider.scss';
 
    .slider-tab {
-      background-color: #8C8C8C;
+      background-color: #d81111;
    }
 
    .title-styles {
@@ -16,7 +16,7 @@ body[data-theme="dark"] {
    }
 
    .slider-image {
-      border: 5px solid #8C8C8C;
+      border: 5px solid #b02525;
    }
 
    .language {
@@ -33,7 +33,7 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: #d8aeae;
       h1 {
          color: white;
       }
@@ -48,7 +48,7 @@ body[data-theme="dark"] {
          background:  #6d6d6d;
       }
       .card {
-         background: #6d6d6d;
+         background: #290303;
          color: white;
       }
    }
@@ -74,12 +74,12 @@ body[data-theme="dark"] {
       }
 
       .experience-badge {
-         background: #919191 !important;
-         color: white;
+         background: #c5ebe7 !important;
+         color: black;
       }
 
       .main-badge {
-         background: #919191 !important;
+         background: #cc98d1 !important;
       }
 
       .vertical-timeline-element-date {
